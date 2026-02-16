@@ -1,0 +1,96 @@
+.build-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.panel-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.panel-label {
+  font-size: 12px;
+  color: #6b6b6b;
+}
+
+.panel-textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  font-size: 13px;
+  resize: vertical;
+}
+
+.panel-textarea:focus {
+  outline: none;
+  border-color: #0891b2;
+}
+
+.panel-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.btn-copy, .btn-load, .btn-lovable {
+  padding: 8px 14px;
+  font-size: 13px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-copy, .btn-load {
+  background: #f5f5f5;
+  border: 1px solid #e5e5e5;
+  color: #1a1a1a;
+}
+
+.btn-lovable {
+  background: #0891b2;
+  color: #fff;
+  border: none;
+}
+
+.btn-copy:hover, .btn-load:hover {
+  background: #eee;
+}
+
+.btn-lovable:hover {
+  background: #0e7490;
+  color: #fff;
+}
+
+.panel-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.status-label {
+  font-size: 12px;
+  color: #6b6b6b;
+}
+
+.status-btn {
+  padding: 4px 10px;
+  font-size: 12px;
+  background: #f5f5f5;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+
+.status-btn.active {
+  background: #d1fae5;
+  border-color: #059669;
+  color: #065f46;
+}
+
+.status-btn:hover {
+  background: #eee;
+}

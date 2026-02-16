@@ -1,0 +1,36 @@
+.home-page {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.home-headline {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.home-sub {
+  font-size: 18px;
+  color: #6b6b6b;
+  margin-bottom: 32px;
+}
+
+.home-cta {
+  display: inline-block;
+  padding: 14px 28px;
+  background: #1a1a1a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.home-cta:hover {
+  background: #333;
+  color: #fff;
+}
